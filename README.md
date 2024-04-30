@@ -5,10 +5,11 @@ In Process
 ## Table of Contents
 
 - [Project Introduction](#project-introduction)
-    - [Fast Food Marketing A/B Test Jupyter Notebook](#fast-food-marketing-a/b-test-jupyter-notebook)
-    - [Consumer Behavior Analysis Dataset](#consumer-behavior-analysis-dataset)
+    - [Fast Food Marketing A/B Test Jupyter Notebook](#fast-food-marketing-ab-test-jupyter-notebook)
+    - [Fast Food Marketing Campaign A/B Test Dataset](#fast-food-marketing-campaign-ab-test-dataset)
 - [Objective](#objective)
 - [Analysis Outline](#analysis-outline)
+- [Conclusion](#conclusion)
 
 ## Project Introduction
 
@@ -20,7 +21,7 @@ All codes of Fast Food Marketing A/B Test in Jupyter Notebook
 
 Link: [Fast Food Marketing A/B Test](https://github.com/jasondo-da/Fast_Food_Marketing_Campaign_AB_Test/blob/main/fast_food_ab_test.ipynb)
 
-### Fast Food Marketing Campaign A\B Test Dataset
+### Fast Food Marketing Campaign A/B Test Dataset
 
 A fast-food chain plans to add a new item to its menu. However, they are still undecided between three possible marketing campaigns for promoting the new product. In order to determine which promotion has the greatest effect on sales, the new item is introduced at locations in several randomly selected markets. A different promotion is used at each location, and the weekly sales of the new item are recorded for the first four weeks.
 
@@ -51,3 +52,7 @@ The purpose of this project is to be part of an ongoing process to refine and de
 - Shapiro-Wilk test resulted in the significance level being less than 0.05, leading us to reject the null hypothesis, indicating that the assumption of equality is not met and that it is not a normal distribution
 
 - In the case of non-normal distribution, we used the Kruskal–Wallis Test a non-parametric test. For this scenario, we are going to use the Kruskal–Wallis Test
+
+## Conclusion
+
+Based on the results of this dataset, I uncovered that this fast food company should use promotion strategies A/1 and/or C/3 for their future primary marketing campaign for optimal sales performance.
