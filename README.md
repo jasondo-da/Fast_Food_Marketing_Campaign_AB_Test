@@ -1,6 +1,6 @@
 # Fast Food Marketing A/B Test
 
-In Process
+![image](https://github.com/jasondo-da/Fast_Food_Marketing_Campaign_AB_Test/assets/138195365/5dbb82c9-db2d-4b3b-99e6-4794a42ff113)
 
 ## Table of Contents
 
