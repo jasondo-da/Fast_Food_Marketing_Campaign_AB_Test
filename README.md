@@ -12,17 +12,17 @@ In Process
 
 ## Project Introduction
 
-This is a Kaggle-sourced dataset used to refine my data analytics skills further and gain more data science experience. The “Fast Food Marketing Campaign A\B Test” contains a variety of intricate insights into restaurant sales data using different marketing campaigns.
+This is a Kaggle-sourced dataset used to refine my data analytics skills further and gain more data science experience. A quick growing fast-food chain is planning to add a new menu and is currently undecided between three possible marketing campaigns for their new product. To find the best marketing campaign for optimal sales growth, the new menu item is introduced to several locations in randomly selected markets. One of three marketing campaigns is randomly used at each location and the weekly total sales will be recorded for the first four weeks under the new campaign. To find the best marketing campaign we are going to conduct an A/B test to statistically find the optimal marketing campaign.
 
 ### Fast Food Marketing A/B Test Jupyter Notebook
 
-All code of Fast Food Marketing A/B Test in Jupyter Notebook
+All codes of Fast Food Marketing A/B Test in Jupyter Notebook
 
-Link: [Fast Food Marketing A/B Test]()
+Link: [Fast Food Marketing A/B Test](https://github.com/jasondo-da/Fast_Food_Marketing_Campaign_AB_Test/blob/main/fast_food_ab_test.ipynb)
 
 ### Fast Food Marketing Campaign A\B Test Dataset
 
-The Consumer Behavior and Shopping Habits Dataset provides a detailed overview of consumer preferences and purchasing behaviors. It includes demographic information, purchase history, product preferences, and preferred shopping channels. This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty. This project was originally completed using the MySQL platform and the original dataset formatting has been adjusted and cleaned to work on the MySQL platform.
+A fast-food chain plans to add a new item to its menu. However, they are still undecided between three possible marketing campaigns for promoting the new product. In order to determine which promotion has the greatest effect on sales, the new item is introduced at locations in several randomly selected markets. A different promotion is used at each location, and the weekly sales of the new item are recorded for the first four weeks.
 
 Link: [Original Kaggle Dataset](https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test/data)
 
@@ -38,6 +38,16 @@ Link: [Original Kaggle Dataset](https://www.kaggle.com/datasets/chebotinaa/fast-
 
 ## Objective
 
-The purpose of this project is to be part of an ongoing process to refine and develop my data analysis skills. 
+The purpose of this project is to be part of an ongoing process to refine and develop my data analysis skills. To find the best marketing campaign we are going to conduct an A/B test to statistically find the optimal marketing campaign for sales growth.
 
 ## Analysis Outline
+
+- The ANOVA test was used, and the established hypothesis is:
+
+    - (H0): M0 = M1 = M2 (There is not a statistical difference in the promotion groups)
+    
+    - (H1): M0 != M1 != M2 (There is a statistical difference in the promotion groups)
+
+- Shapiro-Wilk test resulted in the significance level being less than 0.05, leading us to reject the null hypothesis, indicating that the assumption of equality is not met and that it is not a normal distribution
+
+- In the case of non-normal distribution, we used the Kruskal–Wallis Test a non-parametric test. For this scenario, we are going to use the Kruskal–Wallis Test
