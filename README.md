@@ -27,7 +27,7 @@ A fast-food chain plans to add a new item to its menu. However, they are still u
 
 Link: [Original Kaggle Dataset](https://www.kaggle.com/datasets/chebotinaa/fast-food-marketing-campaign-ab-test/data)
 
-| Shopping Behavior Dataset Tables | Table Description |
+| Columns | Description |
 | :------------- | :------------ |
 | MarketID | unique market identifier |
 | MarketSize | market area size by sales generated |
