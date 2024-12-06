@@ -10,6 +10,7 @@
 - [Objective](#objective)
 - [Analysis Outline](#analysis-outline)
 - [Conclusion](#conclusion)
+- [Generated Plots](#generated-plots)
 
 ## Project Introduction
 
@@ -56,3 +57,9 @@ The purpose of this project is to be part of an ongoing process to refine and de
 ## Conclusion
 
 Based on the results of this dataset, I uncovered that this fast food company should use promotion strategies A/1 and/or C/3 for their future primary marketing campaign for optimal sales performance.
+
+## Generated Plots
+
+![image](https://github.com/user-attachments/assets/85749d48-4c1d-4aa2-820f-3b06a47b342b)
+
+
