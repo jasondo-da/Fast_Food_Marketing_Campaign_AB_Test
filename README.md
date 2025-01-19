@@ -54,11 +54,18 @@ The purpose of this project is to be part of an ongoing process to refine and de
 
 - In the case of non-normal distribution, we used the Kruskal–Wallis Test a non-parametric test. For this scenario, we are going to use the Kruskal–Wallis Test
 
+- The p-value resulted being less than 0.05 giving reason to reject the null hypothesis showing there is a significant statistical difference in at least one of the promotion groups
+
+- After discovering there is at least one statistical difference in the promotion groups we can now use multiple comparisons to test the null hypothesis that the difference in means of all pairs is 0
+
 ## Conclusion
 
-Based on the results of this dataset, I uncovered that this fast food company should use promotion strategies A/1 and/or C/3 for their future primary marketing campaign for optimal sales performance.
+This fast-food company has reason to reject the null hypothesis of adding the new menu items and embrace the alternative hypothesis in keeping the original menu items since they statistically perform better than the new menu items
 
 ## Generated Plots
+
+![image](https://github.com/user-attachments/assets/5bcf278a-51fa-45b6-a267-2e6730073dd2)
+
 
 ![image](https://github.com/user-attachments/assets/85749d48-4c1d-4aa2-820f-3b06a47b342b)
 
